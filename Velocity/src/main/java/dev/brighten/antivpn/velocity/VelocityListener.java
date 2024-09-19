@@ -104,7 +104,7 @@ public class VelocityListener extends VPNExecutor {
                                             if (AntiVPN.getInstance().getVpnConfig().kickPlayersOnDetect()) {
 
                                                 event.getPlayer().disconnect(LegacyComponentSerializer.builder().character('&')
-                                                        .build().deserialize("Bad boy bad boys what you gonna do when they come for you"));
+                                                        .build().deserialize("&cVPN e Proxy non sono consentiti su &eMcExp.it\n&fusa una connessione residenziale,\n&foppure se lo reputi un errore, apri un ticket su discord e segnalalo!\n&9&o&nmcexp.it/ds"));
                                             }
                                             VelocityPlugin.INSTANCE.getLogger().info(event.getPlayer().getUsername()
                                                     + " joined on a VPN/Proxy (" + result.getMethod() + ")");
